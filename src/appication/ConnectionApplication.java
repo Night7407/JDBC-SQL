@@ -9,7 +9,7 @@ public class ConnectionApplication {
         try{
         String ConnectingURL = "jdbc:mysql://localhost:3306/test";
         String dbuser = "root";
-        String dbpass = "Mohit07@";
+        String dbpass = " ";
         
         Class.forName("com.mysql.cj.jdbc.Driver");
         con = DriverManager.getConnection(ConnectingURL, dbuser, dbpass);
